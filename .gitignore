@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/aoc2022/.vs/aoc2022/v17
+/aoc2022/.vs/aoc2022
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/aoc2022/v17/.wsuo
+/aoc2022/aoc2022/bin/Debug/net7.0
+/aoc2022/aoc2022/obj
