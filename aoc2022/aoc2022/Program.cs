@@ -1,10 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using aoc2022._1;
-using aoc2022._2;
+using aoc2022._3;
 
-Console.WriteLine("Hello, World!");
-
-var toRun = new RockPaperScissorsStrategy();
-Console.WriteLine(toRun.CalculateScoreForStrategyBasedOnInputs());
-Console.WriteLine(toRun.CalculateScoreForStrategyBasedOnOpponentAndOutcome());
+var toRun = new RucksackItemCalculator();
+Console.WriteLine(toRun.GetSumOfBadges());
 Console.ReadLine();
+
