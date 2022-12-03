@@ -8,13 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="2\" />
     <Folder Include="3\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="1\1_input.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="2\2_input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="2\exampleInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
