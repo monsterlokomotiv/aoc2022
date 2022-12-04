@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using aoc2022._3;
+using aoc2022._4;
 
-var toRun = new RucksackItemCalculator();
-Console.WriteLine(toRun.GetSumOfBadges());
+var toRun = new ElfAssignmentCalculator();
+Console.WriteLine(toRun.CalculateNumberOfCompletelyOverlappingAssignments());
+Console.WriteLine(toRun.CalculateNumberOfAnyOverlappingAssignment());
 Console.ReadLine();
 
