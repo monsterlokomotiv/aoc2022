@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using aoc2022._4;
+using aoc2022._5;
 
-var toRun = new ElfAssignmentCalculator();
-Console.WriteLine(toRun.CalculateNumberOfCompletelyOverlappingAssignments());
-Console.WriteLine(toRun.CalculateNumberOfAnyOverlappingAssignment());
+var toRun = new CrateCalculator();
+Console.WriteLine(toRun.GetTopCrateIdentifiersAfterMovingIndividually());
+Console.WriteLine(toRun.GetTopCrateIdentifiersUsingBulkMove());
 Console.ReadLine();
 
