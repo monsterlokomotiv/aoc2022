@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using aoc2022._5;
+using aoc2022._6;
 
-var toRun = new CrateCalculator();
-Console.WriteLine(toRun.GetTopCrateIdentifiersAfterMovingIndividually());
-Console.WriteLine(toRun.GetTopCrateIdentifiersUsingBulkMove());
+var toRun = new CommSystemFixer();
+Console.WriteLine(toRun.GetNumberOfCharsToProcessForStartOfPacket());
+Console.WriteLine(toRun.GetNumberOfCharsToProcessForStartOfMessage());
 Console.ReadLine();
 
